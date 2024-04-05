@@ -9,3 +9,22 @@ body {
     margin: 20px;
     padding: 10px;
 }
+
+.dragging {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.7;
+}
+
+#feedback {
+    display: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    top: 10px;
+    left: 80%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
